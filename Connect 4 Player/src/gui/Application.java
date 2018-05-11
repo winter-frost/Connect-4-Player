@@ -65,7 +65,7 @@ public class Application extends JFrame
 		mcontentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(mcontentPane);
 
-		JLabel lblWaitingForConnection = new JLabel("Waiting for connection...");
+		JLabel lblWaitingForConnection = new JLabel("Running");
 		mcontentPane.add(lblWaitingForConnection, BorderLayout.CENTER);
 
 		this.waitForConnection();
